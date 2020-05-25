@@ -8,8 +8,8 @@ describe 'new post' do
   
  # it 'renders HTML in the /new template' do
   #  visit new_post_path
-    expect(page).to have_content('Post Form')
-  end
+ #   expect(page).to have_content('Post Form')
+#  end
   
   it "displays a new post form that redirects to the index page, which then contains the submitted post's title and description" do
     visit new_post_path
